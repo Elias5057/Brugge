@@ -1,0 +1,187 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Importeren van custom fonts ©Google Fonts*/
+@font-face {
+    font-family: Dancing;
+    src: url(../Font/DancingScript-Regular.ttf);
+}
+@font-face {
+    font-family: Courgette;
+    src: url(../Font/Courgette-Regular.ttf);
+}
+/*Einde importeren fonts*/
+
+/*Eigen stijlen toekennen aan standaardelementen selectie*/
+::selection
+{
+    color: #b10917;
+    background-color: #303063;
+}
+/*Einde toekennen eigen stijlen*/
+
+body
+{
+    background-color: #e6e4e4;
+}
+
+/*navigatiebalk*/
+nav
+{
+    width: 100%;
+    background-color: #383872;
+    height: 60px;
+}
+nav p 
+{
+    float: left;
+    color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: Dancing;
+    font-size: 30px;
+}
+nav a
+{
+    display: none;
+}
+
+.smartphone-nav
+{
+    display: none;
+    margin-top: 5px;
+}
+.smartphone-nav a
+{
+    background-color: #383872;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    float: right;
+    text-align: center;
+    border-style: solid;
+    border-width: 3pt;
+    border-color: #303063;
+    height: 50px;
+    padding-top: 13px;
+    font-family: Dancing;
+}
+.hamburger
+{
+    position: absolute;
+    height: 60px;
+    top: 20px;
+    right: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    display: flex;
+}
+.hamburger .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+/*einde navigatiebalk*/
+
+/*Pagina*/
+#wrapper
+{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+.bannerwide
+{
+    display: none;
+}
+.bannersmall
+{
+    width: 100%;
+}
+
+/*Evenementen*/
+.Title
+{
+    font-family: Courgette;
+    text-align: center;
+    color: #303063;
+    font-size: 45px;
+}
+.DateOfEvent
+{
+    margin-top: 30px;
+    font-family: courgette;
+    color: #b10917;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.EventTitle
+{
+    color: #b10917;
+    font-family: courgette;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+hr
+{
+    background-color: #303063;
+    width: 95%;
+    height: 3pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+.short
+{
+    background-color: #303063;
+    width: 50%;
+    height: 3pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.description p
+{
+    color: #303063;
+    font-family: Courgette;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.description a
+{
+    text-decoration: none;
+    color: #303063;
+    font-family: courgette;
+    text-align: center;
+    font-weight: bold;
+}
+.EventImage, .description
+{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Einde van evenementen*/
+#footer
+{
+    margin-top: 0px;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    font-family: courgette;
+    color: #b10917;
+    font-weight: bold;
+}

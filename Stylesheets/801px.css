@@ -1,0 +1,172 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+body
+{
+    background-color: #e6e4e4;
+}
+/*Importeren van custom fonts ©Google Fonts*/
+@font-face {
+    font-family: Dancing;
+    src: url(../Font/DancingScript-Regular.ttf);
+}
+@font-face {
+    font-family: Courgette;
+    src: url(../Font/Courgette-Regular.ttf);
+}
+
+/*Einde importeren fonts*/
+
+/*Eigen stijlen toekennen aan standaardelementen selectie*/
+::selection
+{
+    color: white;
+    background-color: #4a4a92;
+}
+/*Einde toekennen eigen stijlen*/
+/*navigatiebalk*/
+nav
+{
+    width: 100%;
+    background-color: #383872;
+    height: 50px;
+}
+nav p 
+{
+    float: left;
+    color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: Dancing;
+    font-size: 25px;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Dancing;
+    font-size: 20px;
+}
+nav a:hover
+{
+    background-color: #4a4a92;
+    transition: 1s;
+}
+nav .current
+{
+    border-bottom: solid;
+    border-color: #b10917;
+    border-width: 3pt;
+}
+.smartphone-nav
+{
+    display: none;
+}
+/*einde navigatiebalk*/
+.hamburger
+{
+    display: none;
+}
+#wrapper
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    min-height: 145vh;
+}
+.bannerwide
+{
+    width: 100%;
+}
+.bannersmall
+{
+    display: none;
+}
+/*Evenementen*/
+
+.Title
+{
+    font-family: Courgette;
+    text-align: center;
+    color: #303063;
+    font-size: 45px;
+}
+.DateOfEvent
+{
+    margin-top: 30px;
+    font-family: courgette;
+    color: #b10917;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.EventTitle
+{
+    color: #b10917;
+    font-family: courgette;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+hr
+{
+    background-color: #303063;
+    width: 95%;
+    height: 3pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+.short
+{
+    visibility: hidden;
+}
+.description p
+{
+    color: #303063;
+    font-family: Courgette;
+    word-wrap: keep-all;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.description a
+{
+    text-decoration: none;
+    color: #303063;
+    font-family: courgette;
+    font-weight: bold;
+}
+
+.EventImage, .description, .EventTitle
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.Event 
+{
+    width: 50%;
+    float: left;
+}
+/*Einde van evenementen*/
+#footer
+{
+    bottom: 0;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: courgette;
+    color: #b10917;
+    font-weight: bold;
+}
