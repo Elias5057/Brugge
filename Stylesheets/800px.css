@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
 }
-
+body
+{
+    background-color: whitesmoke;
+}
 /*Importeren van custom fonts ©Google Fonts*/
 @font-face {
     font-family: Dancing;
@@ -24,10 +27,6 @@
 }
 /*Einde toekennen eigen stijlen*/
 
-body
-{
-    background-color: #e6e4e4;
-}
 
 /*navigatiebalk*/
 nav
@@ -177,11 +176,14 @@ hr
 /*Einde van evenementen*/
 #footer
 {
-    margin-top: 0px;
+    margin-top: 25px;
+    height: 40px;
     text-align: center;
     background-color: whitesmoke;
     width: 100%;
     font-family: courgette;
-    color: #b10917;
+    color: white;
     font-weight: bold;
+    background-color:#383872;
+    padding-top: 10px;
 }
