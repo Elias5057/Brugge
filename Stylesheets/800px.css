@@ -166,7 +166,7 @@ hr
     text-align: center;
     font-weight: bold;
 }
-.EventImage, .description
+.event img
 {
     display: block;
     width: 80%;
