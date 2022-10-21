@@ -7,7 +7,7 @@
 body
 {
     background-color: #e6e4e4;
-    background-image: url(/IMG/wallpp.jpg);
+    background-image: url(../IMG/wallpp.jpg);
 }
 /*Importeren van custom fonts ©Google Fonts*/
 @font-face {
@@ -84,7 +84,6 @@ nav .current
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(255, 255, 255, 0.950);
-    min-height: 145vh;
     margin-top: -8px;
 }
 .bannerwide
@@ -111,7 +110,10 @@ nav .current
     margin-left: 10px;
     margin-right: 10px;
 }
-
+.allevents
+{
+    display: block;
+}
 .event img
 {
     width: 40%;
@@ -151,7 +153,7 @@ hr
 /*Einde van evenementen*/
 #footer
 {
-    bottom: 0;
+    margin-top: 50px;
     text-align: center;
     background-color: white;
     width: 80%;
