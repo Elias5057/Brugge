@@ -7,6 +7,7 @@
 body
 {
     background-color: #e6e4e4;
+    background-image: url(/IMG/wallpp.jpg);
 }
 /*Importeren van custom fonts ©Google Fonts*/
 @font-face {
@@ -31,7 +32,7 @@ body
 nav
 {
     width: 100%;
-    background-color: #383872;
+    background-color: #303063;
     height: 50px;
 }
 nav p 
@@ -82,8 +83,9 @@ nav .current
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.950);
     min-height: 145vh;
+    margin-top: -8px;
 }
 .bannerwide
 {
@@ -102,15 +104,26 @@ nav .current
     color: #303063;
     font-size: 45px;
 }
-.DateOfEvent
+.event
 {
-    margin-top: 30px;
-    font-family: courgette;
-    color: #b10917;
-    margin-left: 15px;
-    margin-bottom: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.EventTitle
+
+.event img
+{
+    width: 40%;
+    
+}
+.description
+{
+    display: block;
+    float: right;
+    width: 60%;
+}
+.description h1
 {
     color: #b10917;
     font-family: courgette;
@@ -121,49 +134,26 @@ nav .current
 hr
 {
     background-color: #303063;
-    width: 95%;
+    width: 100%;
     height: 3pt;
     margin-left: auto;
     margin-right: auto;
 }
-.short
+.underline
 {
-    visibility: hidden;
-}
-.description p
-{
-    color: #303063;
-    font-family: Courgette;
-    word-wrap: keep-all;
-    margin-top: 12px;
-    margin-bottom: 5px;
-}
-.description a
-{
-    text-decoration: none;
-    color: #303063;
-    font-family: courgette;
-    font-weight: bold;
-}
-
-.EventImage, .description, .EventTitle
-{
-    display: block;
+    background-color: #b10917;
+    width: 50%;
+    height: 3pt;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-}
-.Event 
-{
-    width: 50%;
-    float: left;
+    margin-bottom: 10px;
 }
 /*Einde van evenementen*/
 #footer
 {
     bottom: 0;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: white;
     width: 80%;
     margin-left: auto;
     margin-right: auto;

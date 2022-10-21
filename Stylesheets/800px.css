@@ -125,7 +125,7 @@ nav a
     margin-left: 15px;
     margin-bottom: 10px;
 }
-.EventTitle
+.description h1
 {
     color: #b10917;
     font-family: courgette;
@@ -141,9 +141,9 @@ hr
     margin-left: auto;
     margin-right: auto;
 }
-.short
+.underline
 {
-    background-color: #303063;
+    background-color: #b10917;
     width: 50%;
     height: 3pt;
     margin-left: auto;
