@@ -6,7 +6,7 @@
 }
 body
 {
-    background-color: whitesmoke;
+    background-image: url(../IMG/wallpp.jpg);
 }
 /*Importeren van custom fonts ©Google Fonts*/
 @font-face {
@@ -96,9 +96,8 @@ nav a
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
-    background-color: whitesmoke;
-    min-height: 100vh;
+    margin-top: -8px;
+    background-color: rgba(255, 255, 255, 0.726);
 }
 .bannerwide
 {
