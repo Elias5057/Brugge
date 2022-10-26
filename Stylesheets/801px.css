@@ -171,7 +171,12 @@ hr
 }
 /*Einde van evenementen*/
 
-
+/*Bezienswaardigheden*/
+.maps
+{
+    width: 100%;
+    height: 350px;
+}
 #footer
 {
     margin-top: 50px;
