@@ -168,6 +168,62 @@ hr
 }
 /*Einde van evenementen*/
 
+/*Traditites*/
+.AllTradities {
+    display: block;
+}
+
+.text
+{
+    display: block;
+    
+    width: 70%;
+}
+
+.text h1
+{
+    color: #b10917;
+    font-family: courgette;
+    font-size: 1.8vw;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text p
+{
+    color: #303063;
+    font-family: Courgette;
+    font-size: 1.1vw;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Kant {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.AllTradities img
+{
+    width: 30%;
+    float: right;
+    
+}
+
+.All img:hover
+{
+    transition: 1s;
+    scale: 1.05;
+}
+
+
+
 /*Bezienswaardigheden*/
 .alllocations
 {
