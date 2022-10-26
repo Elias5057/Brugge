@@ -175,6 +175,7 @@ hr
 
 .text {
     display: block;
+    float: right;
     width: 70%;
 }
 
@@ -197,7 +198,7 @@ hr
     margin-bottom: auto;
 }
 
-.Kant , .Handmade {
+.Kant , .Handmade , .Reuzencultuur , .Kermiscultuur {
     display: block;
     margin-top: 10px;
     margin-left: 10px;
@@ -205,22 +206,23 @@ hr
     float: left;
 }
 
-
-
-.AllTradities  img {
+.AllTradities .Kant img , .AllTradities .Reuzencultuur img {
     width: 30%;
     float: right;
     
 }
 
+.AllTradities .Handmade img, .AllTradities .Kermiscultuur img {
+    width: 30%;
+    float: left;
+    
+}
 
 
 .AllTradities img:hover {
     transition: 1s;
     scale: 1.05;
 }
-
-
 
 /*Bezienswaardigheden*/
 .alllocations
