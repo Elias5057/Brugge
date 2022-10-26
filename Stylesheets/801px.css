@@ -173,15 +173,12 @@ hr
     display: block;
 }
 
-.text
-{
+.text {
     display: block;
-    
     width: 70%;
 }
 
-.text h1
-{
+.text h1 {
     color: #b10917;
     font-family: courgette;
     font-size: 1.8vw;
@@ -189,8 +186,7 @@ hr
     margin-top: 10px;
 }
 
-.text p
-{
+.text p {
     color: #303063;
     font-family: Courgette;
     font-size: 1.1vw;
@@ -201,7 +197,7 @@ hr
     margin-bottom: auto;
 }
 
-.Kant {
+.Kant , .Handmade {
     display: block;
     margin-top: 10px;
     margin-left: 10px;
@@ -209,15 +205,17 @@ hr
     float: left;
 }
 
-.AllTradities img
-{
+
+
+.AllTradities  img {
     width: 30%;
     float: right;
     
 }
 
-.All img:hover
-{
+
+
+.AllTradities img:hover {
     transition: 1s;
     scale: 1.05;
 }
