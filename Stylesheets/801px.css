@@ -220,14 +220,11 @@ hr
 }
 
 
-<<<<<<< Updated upstream
 .AllTradities img:hover {
     transition: 1s;
     scale: 1.05;
 }
 
-=======
->>>>>>> Stashed changes
 /*Bezienswaardigheden*/
 .alllocations
 {
@@ -238,19 +235,18 @@ hr
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 400px;
 }
 .location h1
 {
     color: #b10917;
     font-family: courgette;
+    /*probleem met titels, uitleg aan mevrouw vragen*/
 }
-.location .description
-{
-    width: 100%;
-    height: 300px;
-}
+
 .location p
 {
+    display: block;
     margin-top: 20px;
     color: #303063;
     font-family: Courgette;
@@ -266,17 +262,18 @@ hr
 .location img
 {
     width: 100%;
-    border: 15pt;
+    border-radius: 15pt;
     display: block;
 }
 .maps
 {
+    margin-top: 20px;
     display: block;
-    height: 100%;
     width: 40%;
-    border-top-right-radius: 10pt;
-    border-bottom-right-radius: 10pt;
-    float: left;
+    height: 18vw;
+    border-radius: 15pt;
+    border-style: none;
+    float: right;
 }
 #footer
 {
