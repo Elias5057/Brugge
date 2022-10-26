@@ -92,7 +92,7 @@ nav .current
 }
 
 
-/*Evenementen*/
+
 
 .Title
 {
@@ -101,6 +101,7 @@ nav .current
     color: #303063;
     font-size: 45px;
 }
+/*Evenementen*/
 .event
 {
     display: block;
@@ -122,13 +123,13 @@ nav .current
     transition: 1s;
     scale: 1.05;
 }
-.description
+.event .description
 {
     display: block;
     float: right;
     width: 70%;
 }
-.description h1
+.event .description h1
 {
     color: #b10917;
     font-family: courgette;
@@ -136,7 +137,7 @@ nav .current
     text-align: center;
     margin-top: 10px;
 }
-.description p
+.event .description p
 {
     color: #303063;
     font-family: Courgette;
@@ -219,11 +220,14 @@ hr
 }
 
 
+<<<<<<< Updated upstream
 .AllTradities img:hover {
     transition: 1s;
     scale: 1.05;
 }
 
+=======
+>>>>>>> Stashed changes
 /*Bezienswaardigheden*/
 .alllocations
 {
@@ -240,30 +244,36 @@ hr
     color: #b10917;
     font-family: courgette;
 }
+.location .description
+{
+    width: 100%;
+    height: 300px;
+}
 .location p
 {
+    margin-top: 20px;
     color: #303063;
     font-family: Courgette;
     font-size: 1.1vw;
+    width: 60%;
+    float: left;
 }
-.top 
+.marked
 {
- height: 600px;
+    text-decoration: underline;
 }
+
 .location img
 {
-    width: 70%;
-    height: 100%;
-    border-top-left-radius: 10pt;
-    border-bottom-left-radius: 10pt;
+    width: 100%;
+    border: 15pt;
     display: block;
-    float: left;
 }
 .maps
 {
     display: block;
     height: 100%;
-    width: 30%;
+    width: 40%;
     border-top-right-radius: 10pt;
     border-bottom-right-radius: 10pt;
     float: left;
