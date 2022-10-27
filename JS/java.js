@@ -1,4 +1,4 @@
-var tf = 0
+let tf = 0
 //  tf = true false
 
 function navigatie()
@@ -16,3 +16,4 @@ function navigatie()
         tf = 0;
     }
 }
+
