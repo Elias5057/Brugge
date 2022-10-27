@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body onload="hoogteImg()">
+
+<img id="myImg1" src="img/events/BruggeKerst.jpg" alt="BruggeKerst">
+<img id="myImg2" src="img/events/kerstloop.jpg" alt="kerstloop">
+
+<script>
+function hoogteImg() 
+{
+  var hoogtePic1 = document.getElementById("myImg1").height;
+  console.log(hoogtePic1);
+  document.getElementById("myImg2").height=hoogtePic1;
+}
+
+</script>
+
+</body>
+</html>
+
