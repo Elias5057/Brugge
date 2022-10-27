@@ -210,12 +210,14 @@ hr
 .AllTradities .Kant img , .AllTradities .Reuzencultuur img {
     width: 30%;
     float: right;
+    border-radius: 15pt;
     
 }
 
 .AllTradities .Handmade img, .AllTradities .Kermiscultuur img {
     width: 30%;
     float: left;
+    border-radius: 15pt;
     
 }
 
@@ -235,12 +237,14 @@ hr
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 400px;
 }
 .location h1
 {
+    padding-top: 50px;
+    padding-bottom: 10px;
     color: #b10917;
     font-family: courgette;
+    clear: both;
     /*probleem met titels, uitleg aan mevrouw vragen*/
 }
 
