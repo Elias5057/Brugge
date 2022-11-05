@@ -6,7 +6,7 @@
 }
 body
 {
-    background-image: url(../IMG/wallpp.jpg);
+    background-color: white;
 }
 /*Importeren van custom fonts ©Google Fonts*/
 @font-face {
@@ -93,12 +93,13 @@ nav a
 /*Pagina*/
 #wrapper
 {
+    padding-left: 10px;
+    padding-right: 10px;
     display: block;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -8px;
-    background-color: rgba(255, 255, 255, 0.726);
 }
 .bannerwide
 {
@@ -112,6 +113,7 @@ nav a
 /*Evenementen*/
 .Title
 {
+    margin-top: 15px;
     font-family: Courgette;
     text-align: center;
     color: #303063;
@@ -229,4 +231,48 @@ hr
     font-weight: bold;
     background-color:#383872;
     padding-top: 10px;
+}
+
+/*Bezienswaardigheden*/
+.location
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.location h1
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #b10917;
+    font-family: courgette;
+    clear: both;
+    /*probleem met titels, uitleg aan mevrouw vragen*/
+}
+
+.location p
+{
+    display: block;
+    margin-top: 20px;
+    color: #303063;
+    font-family: Courgette;
+    width: 100%;
+    float: left;
+}
+.marked
+{
+    text-decoration: underline;
+}
+
+.location img, .maps
+{
+    width: 100%;
+    border-radius: 15pt;
+    display: block;
+}
+.maps
+{
+    padding-top: 15px;
+    height: 200px;
+    border-style: none;
 }

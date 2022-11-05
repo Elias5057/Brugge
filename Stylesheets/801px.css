@@ -96,6 +96,7 @@ nav .current
 
 .Title
 {
+    margin-top: 20px;
     font-family: Courgette;
     text-align: center;
     color: #303063;
@@ -229,10 +230,6 @@ hr
 /*einde tradities*/
 
 /*Bezienswaardigheden*/
-.alllocations
-{
-    padding-top: 50px;
-}
 .location
 {
     width: 80%;
