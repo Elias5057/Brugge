@@ -52,7 +52,9 @@ nav a
 .smartphone-nav
 {
     display: none;
+    width: 100%;
     margin-top: 5px;
+    position: fixed;
 }
 .smartphone-nav a
 {
@@ -88,6 +90,10 @@ nav a
     width: 100%;
     background-color: white;
 }
+.bar
+{
+    border-radius: 10pt;
+}
 /*einde navigatiebalk*/
 
 /*Pagina*/
@@ -117,7 +123,7 @@ nav a
     font-family: Courgette;
     text-align: center;
     color: #303063;
-    font-size: 45px;
+    font-size: 35px;
 }
 .DateOfEvent
 {
@@ -142,15 +148,19 @@ hr
     height: 3pt;
     margin-left: auto;
     margin-right: auto;
+    border-style: none;
+    border-radius: 10pt;
 }
 .underline
 {
     background-color: #b10917;
-    width: 50%;
+    width: 70%;
     height: 3pt;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    border-style: none;
+    border-radius: 10pt;
 }
 .description p
 {
@@ -170,10 +180,12 @@ hr
 }
 .event img
 {
+    margin-top: 15px;
     display: block;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10pt;
 }
 /*Einde van evenementen*/
 
@@ -224,19 +236,17 @@ hr
     margin-top: 25px;
     height: 40px;
     text-align: center;
-    background-color: whitesmoke;
     width: 100%;
     font-family: courgette;
-    color: white;
+    color: #b10917;
     font-weight: bold;
-    background-color:#383872;
     padding-top: 10px;
 }
 
 /*Bezienswaardigheden*/
 .location
 {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
