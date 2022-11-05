@@ -219,6 +219,33 @@ hr
 }
 /*Einde tradities*/
 
+/*Over*/
+
+.Informatie p {
+    color: #303063;
+    font-family: Courgette;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Info1 , .Info2 , .Info3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.AllInformation .Info2 img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5pt;
+} 
+
+/*Einde over*/
+
 #footer
 {
     margin-top: 25px;

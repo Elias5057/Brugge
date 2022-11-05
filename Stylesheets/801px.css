@@ -229,6 +229,47 @@ hr
 }
 /*einde tradities*/
 
+/* Over Brugge */
+
+.AllInformation {
+    display: block;
+}
+
+.AllInformation .Info2 img {
+    width: 100%;
+   
+    display:block;
+}
+
+.Info1{
+    display: block;
+    width: 33%;
+    float: left;
+}
+
+.Info2 {
+    display: block;
+    width: 33%;
+    float: left;
+}
+
+.Info3 {
+    display: block;
+    width: 33%;
+    float: right;
+}
+
+.Informatie p {
+    color: #303063;
+    font-family: Courgette;
+    font-size: 1.1vw;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 /*Bezienswaardigheden*/
 .location
 {
