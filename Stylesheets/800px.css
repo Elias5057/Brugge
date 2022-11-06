@@ -53,8 +53,8 @@ nav a
 {
     display: none;
     width: 100%;
-    margin-top: 5px;
     position: fixed;
+    background-color: #383872;
 }
 .smartphone-nav a
 {
@@ -70,6 +70,7 @@ nav a
     height: 50px;
     padding-top: 13px;
     font-family: Dancing;
+    font-size: large;
     margin-top: -5px;
 }
 .hamburger
@@ -268,6 +269,8 @@ hr
     color: #b10917;
     font-weight: bold;
     padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Bezienswaardigheden*/
@@ -312,4 +315,108 @@ hr
     padding-top: 15px;
     height: 200px;
     border-style: none;
+}
+
+/*hotel*/
+.hotel
+{
+    padding: 16px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: #303063;
+    border-radius: 10pt;
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: courgette;
+}
+
+.photo img
+{
+   display: none;
+}
+
+.content
+{
+    display: block;
+}
+
+.top-row
+{
+    display: block;
+}
+
+.main 
+{
+    width: 80%;
+    float: left;
+}
+
+.hotel-name
+{
+    color: #b10917;
+    font-size:x-large;
+    text-decoration: none;
+    float: left;
+}
+
+.star-rating
+{
+    float: left;
+}
+
+.hotel-info
+{
+    clear: both;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.review
+{
+    display: flex;
+    order: 2;
+    flex-grow: 1;
+    text-align: right;
+    margin-left: 20px;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.score .badge
+{
+    float: right;
+    color: #b10917;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.price
+{
+    display: none;
+}
+
+.price_green
+{
+    color: green;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.button-row button
+{
+
+   display: none;
+}
+.button-row button:hover
+{
+  background-color: #4a4a92;
+  cursor: pointer;
+}
+
+.credit img
+{
+    float: left;
+    margin-left: 15px;
 }

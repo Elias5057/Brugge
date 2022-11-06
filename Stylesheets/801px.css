@@ -330,3 +330,126 @@ hr
     color: #b10917;
     font-weight: bold;
 }
+
+/*hotel*/
+.hotel
+{
+    padding: 16px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: #303063;
+    border-radius: 10pt;
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: courgette;
+}
+
+.photo img
+{
+    border-radius: 5pt;
+    vertical-align: top;
+}
+
+.content
+{
+    display: flex;
+    padding-left: 16px;
+    order: 2;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-direction: column;
+    color: #303063;
+    font-size: large;
+}
+
+.top-row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.main 
+{
+    order: 1;
+    flex-grow: 1;
+}
+
+.hotel-name
+{
+    color: #b10917;
+    font-size:x-large;
+    text-decoration: none;
+    float: left;
+}
+
+.star-rating
+{
+    float: left;
+}
+
+.hotel-info
+{
+    clear: both;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.review
+{
+    display: flex;
+    order: 2;
+    flex-grow: 1;
+    text-align: right;
+    margin-left: 20px;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.score .badge
+{
+    float: right;
+    color: #b10917;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.price
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.price_green
+{
+    color: green;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.button-row button
+{
+   float: right;
+   height: 40px;
+   padding: 5px;
+   width: 20%;
+   border-radius: 5pt;
+   border-style: none;
+   background-color: #303063;
+   font-family: courgette;
+   font-size: 1vw;
+   color: white;
+}
+.button-row button:hover
+{
+  background-color: #4a4a92;
+  cursor: pointer;
+}
+
+.credit img
+{
+    float: left;
+    margin-left: 15px;
+}
